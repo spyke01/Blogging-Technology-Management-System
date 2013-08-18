@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" 	xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+			<title>Fast Track Sites BTS</title>
+			<description></description>
+			<link>http://fasttracksites.com/demos/blog/</link>
+		<item>
+			<title>Welcome!</title>
+			<description>
+				Thank you for using the Fast Track Sites Blogging Technology System, if you have any questions, please feel free to contact us at sales_(at)_fasttracksites.com.
+			</description>
+			<link>http://fasttracksites.com/demos/blog/</link>
+		</item>
+		<item>
+			<title>Updates</title>
+			<description>
+				The backend of the system is now functioning, as is most of the administration pages. We are currently working on adding extra features and working out a few small bugs.
+
+We have also added in a form checker to the add comments page. Th....
+			</description>
+			<link>http://fasttracksites.com/demos/blog/</link>
+		</item>
+	</channel>
+</rss>

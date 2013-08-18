@@ -1,0 +1,609 @@
+/* --------------------------------------------------------------
+    Default CMS table styles
+    Fast Track Sites
+    http://www.fasttracksites.com
+---------------------------------------------------------------*/
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color:#f4e7cb;
+	background-image:url(images/diagscan.gif);
+	background-position:center;
+	color:#697C83;
+	font-family:'Trebuchet MS','Lucida Grande', Arial, sans-serif;
+	font-size:small;
+	font-weight:400;
+	text-align:left;
+	margin:0;
+	padding:0;
+}
+
+body,html,ul {
+	color:#697C83;
+	margin:0;
+	padding:0;
+}
+
+body,html,img {
+	border: 0;
+}
+
+/*	 Layout 
+---------------------------------------------------------------*/
+#header {
+	background-image:url(images/headerbg.jpg);
+	background-position:top;
+	background-repeat:repeat-x;
+	border-bottom: 6px solid #25569a;
+	height:114px;
+	margin:0;
+	padding:0;
+}
+
+#logo {
+	height:87px;
+	width:940px;
+	margin:0 auto;
+}
+
+#blogname {
+	padding: 20px 0 0 0;
+}
+
+h1#blogname a {
+	color:#FFF;
+	font-size:36px;
+	font-weight:400;
+	text-decoration: none;
+}
+
+.description {
+	color:#CAE972;
+	font-size:1em;
+	font-weight:400;
+}
+
+#wrap {
+	background: #fff;
+	border: 1px solid #afac9a;
+	border-top: 0px;
+	overflow:hidden;
+	position:relative;
+	width:940px;
+	margin:0 auto;
+	clear: both;
+}
+
+#content {
+	color:#656565;
+	display:inline;
+	float:left;
+	font-size:100%;
+	line-height:1.6em;
+	text-align:left;
+	width:650px;
+	margin:0px;
+	padding:5px 15px 15px 15px;
+}
+
+.entry {
+	position: relative;
+}
+
+.entrytitle {
+	font-size: 150%;
+	color: #5ca605;
+	border-bottom: 1px solid #97c660;
+}
+
+.entrydate {
+	background: #fff;
+	width: 60px;
+	position: absolute;
+	left: -66px;
+	border: 1px solid #dedede;
+}
+
+.posted, .comma {
+	display: none;
+}
+
+.month, .day, .year {
+	text-align: center;
+	display: block;
+}
+
+.month {
+	font-size: 1em;
+}
+
+.day {
+	color: #B82D26;
+	font-size: 2em;
+}
+
+.year {
+	font-size: 1em;
+}
+
+.entrycontent {
+
+}
+
+.entrycontent a, .entrycontent a:visited, a.editLink {
+	font-weight: bold;
+	color: #5ca605;
+}
+
+.entrydata {
+	font-weight: bold;
+	color: #656565;
+	text-align: left;
+	padding-top: 10px;
+}
+
+.entrydata-right {
+	float: right;
+	text-align: right;
+}
+
+.entrydata-right a, .entrydata-right a:visited {
+	color: #656565;
+	text-decoration: none;
+}
+
+#sidebar {
+	color: #656565;
+	display: inline;
+	float: right;
+	line-height: 1.5em;
+	padding-top: 5px;
+	width: 200px;
+	margin: 5px 20px 20px 0;
+	list-style: none;
+}
+
+#sidebar li, #sidebar li ul li {
+	list-style: none;
+}
+
+#sidebar {
+	list-style: none;
+	padding-left: 15px;
+}
+
+#sidebar a, #sidebar a:visited {
+	color: #656565;
+	text-decoration: none;
+}
+
+#sidebar li.title {
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+#sidebar li.feed {
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+#sidebar li.feed a, #sidebar li.feed a:visited {
+	background: url('images/rss_icon.png') no-repeat left 50%;
+	padding-left: 25px;
+	border-style: none;
+}
+
+#footer {
+	background-image: url('images/headerbg.jpg');
+	background-position: bottom;
+	background-repeat: repeat-x;
+	border-top: 6px solid #25569a;
+	clear: both;
+	width: 930px;
+	height: 60px;
+	padding: 25px 5px 10px 5px;
+	margin: 0px;
+}
+
+#footer a, #footer a:visited {
+	color: #fff;
+}
+
+/*  Links 
+---------------------------------------------------------------*/
+a {
+  color: #60aed8;
+  text-decoration: none;
+}
+a:hover {
+  color: #424c5c;
+  text-decoration: underline;
+}
+
+/*  Navigation Menu
+---------------------------------------------------------------*/
+#navigation {
+	width:770px;
+	margin:0 auto;
+	font-size:93%;
+	line-height:normal;
+}
+
+#navigation ul {
+	margin:0px;
+	float: right;
+	padding: 0px 10px 0px 0px;
+	list-style: none;
+}
+
+#navigation li {
+	display:inline;
+	margin:0;
+	padding:0;
+}
+
+#navigation a {
+	float:left;
+	background:url("images/tableft10.gif") no-repeat left top;
+	background-position:0% -42px;
+	margin:0;
+	padding:0 0 0 4px;
+	text-decoration:none;
+}
+
+#navigation a span {
+	float:left;
+	display:block;
+	background:url("images/tabright10.gif") no-repeat right top;
+	background-position:100% -42px;
+	padding:5px 15px 4px 6px;
+	color:#FFF;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#navigation a span {float:none;}
+/* End IE5-Mac hack */
+
+#navigation a:hover {
+	background-position:0% 0px;
+}
+
+#navigation a:hover span {
+	background-position:100% 0px;
+}
+
+
+/*  Comments
+---------------------------------------------------------------*/
+.comment {
+	background: #FFFFDD;
+	width: 100%;
+	border: 1px solid #97c660;
+	padding: 5px;
+}
+
+.comment a, .comment a:visited {
+	font-weight: bold;
+	color: #5ca605;
+	text-decoration: none;
+}
+
+.comment a:hover {
+	text-decoration: underline;
+}
+
+/*  Comments Form
+---------------------------------------------------------------*/
+form.commentsform fieldset {
+	font-weight: bold;
+	background: #FFFFDD;
+	border: 1px solid #97c660;
+	width: 100%;
+	padding: 5px;
+	float: left;
+}
+
+form.commentsform fieldset legend {
+	color: #5ca605;
+	float: left;
+	font-weight: bold;
+}
+
+form.commentsform label {
+	color: #656565;
+	width: 120px;
+	font-weight: bold;
+	clear: both;
+}
+
+form.commentsform.input, form.commentsform.textarea{
+	width: 180px;
+	margin-bottom: 5px;
+}
+
+form.commentsform textarea {
+	width: 250px;
+	height: 150px;
+}
+
+form.commentsform ol, form.commentsform ol li {
+	list-style: none;
+}
+
+form.commentsform input, form.commentsform textarea {
+  	background: url("images/input_bg.gif");
+	border:1px #ccc solid;
+	display:block;
+	padding: 4px;
+	margin: 0px;
+}
+
+form.commentsform input button {
+  	margin: 23px;
+}
+
+form.commentsform input:hover, form.commentsform textarea:hover {
+	border:1px #97c660 solid;
+}
+
+form.commentsform input:focus, form.commentsform textarea:focus {
+	border:1px #3a535e solid;
+}
+
+form.commentsform .hiddenField {
+	display: none;
+  	background-image: none;
+	border: none;
+	padding: 0px;
+}
+
+/*  Quotes and Codes
+---------------------------------------------------------------*/
+.quotetop, .codetop {
+	background: #97c660;
+	color: #fff;
+	width: 100%;
+	border: 1px solid #97c660;
+	border-left: 5px solid #97c660;
+	padding: 5px;
+	margin-left: 25px;
+}
+
+.quotemain, .codemain {
+	background: #FFFFDD;
+	width: 100%;
+	border: 1px solid #97c660;
+	border-left: 5px solid #97c660;
+	padding: 5px;
+	margin-left: 25px;
+}
+
+/*  Images 
+---------------------------------------------------------------*/
+img {
+	border: 0px none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.imgfloatleft {
+	float: left;
+	border-right: 4px solid #FFF;
+	border-bottom: 4px solid #FFF;
+}
+
+.imgfloatright {
+	float: right;
+	border-left: 4px solid #FFF;
+	border-bottom: 4px solid #FFF;
+}
+
+/*  H1 H2 H3
+---------------------------------------------------------------*/
+h1 {
+	font-family: Helvetica, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 18px;
+	margin: 0px;
+}
+
+h2 {
+	font-family: Helvetica, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 16px;
+	margin: 0px;
+}
+
+h3 {
+	font-family: Helvetica, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 14px;
+	color: #2d5768;
+	margin: 0px;
+}
+
+/*  Customize and Order Buttons
+---------------------------------------------------------------*/
+input.button {
+	border: 1px solid #ddd;
+	background: #f9f9f9;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #000;
+	padding: 2px 10px !important;
+	padding: 2px 0px;
+	margin: 2px;
+}
+
+input.button:hover, input.button:sfhover { 
+	border: 1px solid #3da6b8; 
+	background: #e7eef0;
+}
+  
+input {
+  text-indent: 2px; 
+}
+
+.textarea,
+.searchinput {
+	border: 1px solid #FFF;
+	color: #000;
+	background: #f9f9f9;
+	font-family: Verdana, Helvetica, Sans-Serif;
+	font-size: 11px;
+	padding: 2px;
+	vertical-align: middle;
+ }
+input, select, textarea {
+  	background-image: url("images/input_bg.gif");
+	border: 1px #ccc solid;
+	padding: 4px;
+}
+
+input button {
+  	margin: 23px;
+}
+
+input select {
+  	margin: 0px;
+  	padding: 0px;
+}
+
+.settingsDropDown {
+	width: 150px;
+}
+
+.hiddenField {
+	display: none;
+  	background-image: none;
+	border: none;
+	padding: 0px;
+}
+
+.inplaceeditor-saving, .inplaceeditor-loading { background: url('/images/wait.gif') bottom right no-repeat; }
+
+/*  Row Styles
+---------------------------------------------------------------*/
+.title1 {
+	background: #1e728e url('images/navitembg.gif') 0 -5px;
+	height: 20px;
+	color: #fff;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 5px;
+	border-bottom: 1px solid #353535;
+}
+
+.title2 {
+	background: #1a4a62;
+	color: #fff;
+	padding-left: 3px;
+	text-align: left;
+}
+
+td.title2 a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+td.title2 a:hover {
+	text-decoration: none;
+}
+
+.row1 {
+	padding: 2px 3px 2px 3px; 
+	background-color: #648793;
+	color: #fff;
+}
+
+.row2 {
+	padding: 2px 3px 2px 3px;
+	background-color: #315765; 
+	color: #fff;
+}
+
+.contentBox{ /* this will affect the outlining border of all the tables and boxes through-out the CMS. */
+	background: #FFFFDD;
+	border: 1px solid #064054;
+	padding: 0; 
+}
+
+/*  Message Styles
+---------------------------------------------------------------*/
+.errorMessage { 
+	background: #f1c3c3;
+	color: #ff0000;
+	padding: 0.4em;
+	margin: 0 0 1em; 
+	font-weight: bold;
+	border: 1px solid #8e2424;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px; 
+}
+
+.errorMessage a {
+	color: #ff0000;
+}
+
+.successMessage { 
+	background: #caf1c3;
+	color: #008000;
+	padding: 0.4em;
+	margin: 0 0 1em; 
+	font-weight: bold;
+	border: 1px solid #348e24;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px; 
+}
+
+/*  Alignment Styles
+---------------------------------------------------------------*/
+.full { width: 100%; }
+.half { width: 50%; }
+.clear { clear: both; }
+.left { text-align: left; }
+.center { text-align: center; }
+.right { text-align: right; }
+.floatLeft { float: left; }
+.floatRight { float: right; }
+.displayBlock { display: block; }
+.displayInline { display: inline; }
+.cursorPointer { cursor: pointer; }
+.noWrap { white-space: nowrap; }
+
+/*  Validation Styles
+---------------------------------------------------------------*/
+input.disabled {
+	border: 1px solid #F2F2F2;
+	background-color: #F2F2F2;
+}
+
+input.validation-failed, textarea.validation-failed {
+	border: 1px solid #FF3300;
+	color : #FF3300;
+}
+input.validation-passed, textarea.validation-passed {
+	border: 1px solid #00CC00;
+	color : #000;
+}
+input.button {
+	border: 1px solid #707070;
+}
+
+.validation-advice {
+	margin: 5px 0;
+	padding: 5px;
+	background-color: #FF3300;
+	color : #FFF;
+	font-weight: bold;
+}
+
+.custom-advice {
+	margin: 5px 0;
+	padding: 5px;
+	background-color: #C8AA00;
+	color : #FFF;
+	font-weight: bold;
+}
